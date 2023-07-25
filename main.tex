@@ -1,0 +1,350 @@
+%-------------------------
+% Resume in Latex
+% Author
+% License : MIT
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+% Adjust marginse
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+	frame code={}
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=gray!20,
+	colframe=white,
+	width=\dimexpr\textwidth\relax,
+	enlarge left by=-2mm,
+	boxsep=4pt,
+	arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.0mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{Burak KILIÇ} % Your Name
+\newcommand{\jobtitle}{AI Researcher, Ph.D. Student} % Your Program
+\newcommand{\phone}{5369603555} % Your Phone Number
+\newcommand{\emaila}{mail@burak.ai} %Email 1
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+%----------HEADING-----------------
+\hspace{0.0cm} % Adjust the value to shift the picture to the right or left
+\parbox{\dimexpr\linewidth-2.5cm\relax}{
+\begin{tabularx}{\linewidth}{L r}
+  \raisebox{0cm}{\textbf{\huge \name}}& \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}}\\
+  {}  %& {\raisebox{0.0\height}{\footnotesize \faPhone}\ +90-\phone} 
+  \\
+  \jobtitle & \href{https://https://github.com/burakai/}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {github.com/burakai}} \\
+  {Istanbul Technical University} &  \href{https://www.linkedin.com/in/burakai/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {linkedin.com/in/burakai}}
+\end{tabularx}
+}
+\hfill
+\parbox{2.0cm}{%
+\includegraphics[width=1.65cm,clip]{qrcode-ai.png}
+\vspace{-1.6mm}
+}
+
+%-----------EXPERIENCE-----------------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {FMV Isik University}{Istanbul}
+      {Research Assistant}{06/2018 - present}
+      \resumeItemListStart
+    \item {Assisted in the research of a TÜBİTAK-granted project: Development of an economical and innovative joining concept for hybrid materials that does not require filler material.}
+    \item {Managed Materials Science Laboratory, Measurements and Instrumentation, and Mechanical Engineering Laboratory courses. Supervised students in the laboratory, and  graded laboratory reports.}
+    \item {Assisted in the development of new course materials and assignments by writing and revising course materials, and developing new assignments and assessments.}
+    \item {Also taught and supervised students in the Machine Design and Engineering Drawing lab sections.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Turkish Standards Institution}{Istanbul}
+      {Inspector}{06/2017 - 01/2019}
+        \resumeItemListStart
+    \item {Planned and executed inspections in accordance with instructions provided by TSE (Turkish Standards Institution), harmonized standards (such as EN 81-1, EN 81-20, EN 81-70, etc.), and applicable legal regulations.}
+    \item {Conducted thorough inspections to assess the safety, functionality, and compliance of the inspected equipment or systems.}
+    \item {Documented inspection findings and prepared comprehensive reports.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Universal Certification}{Istanbul}
+      {Welding Engineer}{02/2016 - 07/2016}
+        \resumeItemListStart
+    \item {Prepared and approved qualification documents, including Welding Procedure Specifications (WPS), Procedure Qualification Records (PQR), and Welder's Test Certificates.}
+    \item {Worked extensively with various welding codes and standards, such as AWS D1.1, EN 1090, and ASME BPVC.}
+    \item {Conducted inspections and assessments to verify compliance with welding standards and codes.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Merberk Engineering}{Istanbul}
+      {R\&D Engineer}{09/2015 - 02/2016}
+        \resumeItemListStart
+    \item {Involved in an R\&D project to create a 3D printer and subsequently a unique 3D Metal Printer.}
+    \item {Successfully completed the development of the 3D printer, but the project was discontinued before creating the metal 3D printer due to a lack of grants or funding.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Mast Metal Steel Construction}{Kocaeli}
+      {Quality Control Engineer}{09/2014 - 09/2015}
+        \resumeItemListStart
+    \item {Contributed to the establishment of the Quality Management System (QMS) at Mast Metal Steel Construction as the Management Representative.}
+    \item {Conducted inspections after welding, demonstrating a strong interest in quality control.}
+    \item {Worked closely with customers, primarily from IHI Corp., organizing inspections and planning NDT procedures.}
+    \item {Delivered accurate quality records in accordance with Inspection and Test Plans (ITPs).}
+    \item {Upheld high-quality standards and efficiently managed the quality control process throughout the tenure.}
+        \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Istanbul Technical University}{CGPA: 3.17/4.00}
+      {Ph.D. Degree in Mechanical Engineering}{2022 - present}
+    {\small{Relevant coursework: }{Computer Vision, Medical Image Computing, Big Data Technologies and Applications}}
+
+    \resumeSubheading
+      {Istanbul Technical University}{GPA: 3.13/4.00}
+      {M.Sc. Degree in Materials and Manufacture}{2016 - 2022}
+    {\small{Thesis topic: }{Investigation of joining metals and fiber reinforced thermoplastic composites by hot pressing method}}
+
+    \resumeSubheading
+      {Gedik Educational Foundation}{-}
+      {IWE (also EWE) Degree certified by the International Institute of Welding (IIW)} {2014 - 2015}
+    
+    \resumeSubheading
+      {Bulent Ecevit University}{GPA: 2.48/4.00}
+      {B.Sc. Degree in Mechanical Engineering}{2008 - 2014}
+
+  \resumeSubHeadingListEnd
+
+\clearpage
+
+%-----------PROJECTS-----------------
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+    \resumeProject
+      {An Earthquake Research Project} %Project Name
+      {Team Member} %Project Name, Location Name
+      {2023 (ongoing)} %Event Dates
+
+      \resumeItemListStart
+        \item {Tools \& frameworks used: Apache NiFi, Apache Spark, AWS S3, SeisBench}
+        \item {Currently involved in a research project within a scientific research group, utilizing Big Data Tools and the SeisBench framework in the context of Istanbul.}
+    \resumeItemListEnd
+\vspace{-4.0mm}
+    \resumeProject
+      {Brain Tumor Segmentation (BraTS Challange Participation)} %Project Name
+      {Personal Project --- \normalfont{\href{https://www.synapse.org/\#!Synapse:syn51156910/wiki/621282}{Information \faLink}}} %Project Name, Location Name
+      {2023 (ongoing)} %Event Dates
+
+      \resumeItemListStart
+        \item {Tools \& frameworks used: PyTorch, nnUNet, SimpleITK}
+        \item {Participated in the International BraTS challenge, utilizing nnUNet to develop a model for accurate brain tumor segmentation in multi-modal MRI data.}
+    \resumeItemListEnd
+\vspace{-4.0mm}
+    \resumeProject
+      {Yet Another Earthquake Project (YAEP) by Team EGAL} %Project Name
+      {Project Coordinator --- \normalfont{\href{https://github.com/burakai/EGAL_Yet-Another-Earthquake-Project}{Repository \faGithub} / \href{https://drive.google.com/file/d/1ZnavRL9aKvDgOhY6MT6Gx9aGliplpdiy/view?usp=sharing}{Paper \faFile}}} %Project Name, Location Name
+      {2023} %Event Dates
+
+      \resumeItemListStart
+        \item {Tools \& frameworks used: Apache NiFi, Apache Kafka, Apache Spark, AWS S3, Elasticsearch, Kibana}
+        \item {Coordinated an end-to-end project focused on earthquake visualization and correlation analysis with electric field data. Led the team in utilizing a suite of Big Data Tools to seamlessly acquire, integrate, preprocess, analyze, and visualize the data. Leveraged real-time data streaming, advanced analytics, and interactive visualization techniques to uncover significant relationships between earthquakes and electric field data.}
+    \resumeItemListEnd
+\vspace{-4.0mm}
+    \resumeProject
+      {Segmentation Based on Swin-Unet} %Project Name
+      {Personal Project --- \normalfont{\href{https://github.com/burakai/Segmentation-Based-on-Swin-Unet}{Repository \faGithub} /  \href{https://drive.google.com/file/d/18urjyLQNd0j7BHnmrAwnXu1pvISTHHVu/view?usp=sharing}{Paper \faFile}}} %Project Name, Location Name
+      {2023} %Event Dates
+
+      \resumeItemListStart
+        \item {Tools \& frameworks used: PyTorch, Swin-Unet, SimpleITK}
+        \item {Studied automated medical image segmentation using the Swin-Unet model. Achieved accurate results through data preprocessing, training, and GPU acceleration.}
+    \resumeItemListEnd
+\vspace{-4.0mm}
+        \resumeProject
+      {Age Regression from Brain MRI Images} %Project Name
+      {Personal Project --- \normalfont{\href{https://github.com/burakai/Age-Regression-from-Brain-MRI-Images}{Repository \faGithub} / \href{https://drive.google.com/file/d/1Qw4sg83olUFQXYVmY4aluNQZSfiQ9Hrc/view?usp=sharing}{Paper \faFile }}} %Project Name, Location Name
+      {2023} %Event Dates
+
+      \resumeItemListStart
+        \item {Tools \& frameworks used: Scikit-learn, SimpleITK}
+        \item {The project involved conducting a kinematic analysis of a quadcopter's cruising and take-off movements. Using MSC ADAMS software, equations were derived and implemented in MATLAB for visualization.}
+    \resumeItemListEnd
+\vspace{-4.0mm}
+    \resumeProject
+      {Weld Defect Detection Using a Small Dataset with U-Net} %Project Name
+      {Personal Project --- \normalfont{\href{https://github.com/burakai/Weld-Defect-Detection-with-U-Net}{Repository \faGithub} / \href{https://drive.google.com/file/d/1_nS5ze27KiZtBQjcifaxmXlzepDlgqWl/view?usp=sharing}{Paper \faFile}}} %Project Name, Location Name
+      {2022} %Event Dates
+
+      \resumeItemListStart
+        \item {Tools \& frameworks used: PyTorch, U-Net}
+        \item {Utilized the GDXray dataset, specifically for weld X-ray images, and implemented the U-Net architecture.}
+    \resumeItemListEnd
+\vspace{-4.0mm}
+    \resumeProject
+      {Flaw Detection in Radiographic Weld Images Using Morphological Approach} %Project Name
+      {Personal Project - \normalfont{\href{https://drive.google.com/file/d/1yAteP_4os8Idl3iwOSRzSljU1lkROIjj/view?usp=sharing}{Paper \faFile}}} %Project Name, Location Name
+      {2016} %Event Dates
+
+      \resumeItemListStart
+        \item {Tools \& frameworks used: MATLAB, Image Processing Toolbox}
+        \item {Implemented an algorithm inspired by RS Anand and P Kumar's research for flaw detection in radiographic weld images using a morphological approach. It aimed to provide an automated and robust method for flaw detection.}
+    \resumeItemListEnd
+\vspace{-4.0mm}
+    \resumeProject
+      {Kinematic Analysis and Design of a Quadcopter} %Project Name
+      {Personal Project} %Project Name, Location Name
+      {2014} %Event Dates
+
+      \resumeItemListStart
+        \item {Tools \& frameworks used: MSC ADAMS, MATLAB}
+        \item {The project involved conducting a kinematic analysis of a quadcopter's cruising and take-off movements. Using MSC ADAMS software, equations were derived and implemented in MATLAB for visualization.}
+    \resumeItemListEnd      
+  \resumeSubHeadingListEnd
+
+\vspace{-8.0mm}
+
+%-----------Technical skills-----------------
+\section{\textbf{Technical Skills and Interests}}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Turkish (Native), English (Advanced)} \\
+     \textbf{Developer Tools}{: AWS, Linux, Apache NiFi, Apache Kafka, Apache Spark, Elasticsearch, Kibana} \\
+     \textbf{Frameworks}{: PyTorch, TensorFlow, Keras, Darknet (YOLO), OpenCV, Scikit-Learn} \\
+     \textbf{Licenses}{: A+B Class Driver, PADI Advanced Open Water Diver (AOWD), CMAS ** Diver, FAI Beginner Pilot} \\
+     \textbf{Area of Interest}{: Computer Vision, Medical Image Computing, Nondestructive Evaluation, Big Data Applications} \\
+    }}
+ \end{itemize}
+
+\vspace{-6.0mm}
+
+%-----------Certificates-----------------
+\section{\textbf{Certificates}}
+\begin{itemize}[leftmargin=3ex, rightmargin=0.05in, noitemsep, labelsep=1.2mm, itemsep=0mm]
+  \item \textbf{\href{https://inzva.com/2023/ai/bootcamps/google-developers-machine-learning-bootcamp}{Google Developers Machine Learning Bootcamp 2023 \faLink}} (Google - inzva) \hfill \textit{ongoing}
+  \item \textbf{\href{https://drive.google.com/file/d/1U9PDKF2VjfbU_4dwTCZzbb_OPgitSXx2/view?usp=sharing}{Certified Associate in Project Management (CAPM) preparation training \faLink}} (PMI TR - ITU) \hfill \textit{2023}
+  \item \textbf{\href{https://coursera.org/share/da44f3f69bf49ddc780589dbe1deafd8}{Introduction to Big Data with Spark and Hadoop \faLink}} (IBM, Coursera) \hfill \textit{2023}
+  \item \textbf{\href{https://www.udemy.com/certificate/UC-f103e3b8-b3de-4776-a95f-a03c73fb5471/}{Introduction to Apache NiFi | Cloudera DataFlow - HDF 2.0 \faLink}} (Udemy) \hfill \textit{2023}
+  \item \textbf{\href{https://drive.google.com/file/d/1LEM8BB5aomFk3PW2wjwMFJ9eKqAEkD6s/view?usp=sharing}{Deep Learning Study Group \faLink}} (inzva) \hfill \textit{2020}
+  \item \textbf{Elevator Inspector Personnel} (Turkish Standards Institution) \hfill \textit{2017}
+  \item \textbf{Internal Auditor} (KYS Consulting) \hfill \textit{2014}
+  \item \textbf{IMS (ISO 9001:2008, ISO 14001:2004, and OHSAS 18001)} (KYS Consulting) \hfill \textit{2014}
+\end{itemize}
+
+
+%-------------------------------------------
+\end{document}
