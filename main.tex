@@ -128,8 +128,8 @@
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
 \newcommand{\name}{Burak KILIÇ} % Your Name
-\newcommand{\jobtitle}{AI Researcher, Ph.D. Student} % Your Program
-%\newcommand{\phone}{5369603555} % Your Phone Number
+\newcommand{\jobtitle}{Ph.D. Candidate} % Your Program
+\newcommand{\phone}{request via e-mail} % Your Phone Number
 \newcommand{\emaila}{mail@burak.ai} %Email 1
 
 \begin{document}
@@ -140,7 +140,7 @@
 \parbox{\dimexpr\linewidth-2.5cm\relax}{
 \begin{tabularx}{\linewidth}{L r}
   \raisebox{0cm}{\textbf{\huge \name}}& \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}}\\
-  {}  & %{\raisebox{0.0\height}{\footnotesize \faPhone}\ +90-\phone} 
+  {}  & {\raisebox{0.0\height}{\footnotesize \faPhone}\ \phone} 
   \\
   \jobtitle & \href{https://https://github.com/burakai/}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {github.com/burakai}} \\
   {Istanbul Technical University} &  \href{https://www.linkedin.com/in/burakai/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {linkedin.com/in/burakai}}
@@ -160,7 +160,7 @@
       {FMV Isik University}{Istanbul}
       {Research Assistant}{06/2018 - present}
       \resumeItemListStart
-    \item {Assisted in the research of a TÜBİTAK-granted project: Development of an economical and innovative joining concept for hybrid materials that does not require filler material.}
+    \item {Assisted in the research of the granted BAP project: Development of an economical and innovative joining concept for hybrid materials that does not require filler material.}
     \item {Managed Materials Science Laboratory, Measurements and Instrumentation, and Mechanical Engineering Laboratory courses. Supervised students in the laboratory, and  graded laboratory reports.}
     \item {Assisted in the development of new course materials and assignments by writing and revising course materials, and developing new assignments and assessments.}
     \item {Also taught and supervised students in the Machine Design and Engineering Drawing lab sections.}
@@ -210,7 +210,7 @@
   \resumeSubHeadingListStart
   
     \resumeSubheading
-      {Istanbul Technical University}{CGPA: 3.17/4.00}
+      {Istanbul Technical University}{CGPA: 3.11/4.00}
       {Ph.D. Degree in Mechanical Engineering}{2022 - present}
     {\small{Relevant coursework: }{Computer Vision, Medical Image Computing, Big Data Technologies and Applications}}
 
@@ -234,11 +234,33 @@
 %-----------PROJECTS-----------------
 \section{\textbf{Projects}}
 \resumeSubHeadingListStart
-    
+
+\resumeProject
+  {SIPA: Smart Integrated Plant Assistant} % Project Name
+  {Personal Project --- \normalfont{\href{https://github.com/burakai/SIPA}{Repository \faGithub}}} % Project Name, Location Name
+  {2025 (ongoing)} % Event Dates
+
+  \resumeItemListStart
+    \item {Developing an IoT-based precision agriculture system using ESP32 microcontrollers and environmental sensors (YL-69 soil moisture, DHT22 temperature/humidity, BH1750 light intensity, DS3231 RTC) to monitor conditions, enable automated irrigation, and track plant growth via periodic camera captures (ESP32-CAM).}
+    \item {Implementing real-time data streaming with MQTT/Apache Kafka, storing historical measurements in PostgreSQL, and visualizing trends through Grafana dashboards for data-driven agricultural insights.}
+    \item {Designing an alert mechanism to notify users of critical environmental changes, improving plant health and optimizing resource usage in alignment with precision farming principles.}
+  \resumeItemListEnd
+  
+\resumeProject
+  {MARS: Marble Analysis and Robotic Slicing} % Project Name
+  {Personal Project} % Project Name, Location Name
+  {2025 (ongoing)} % Event Dates
+
+  \resumeItemListStart
+    \item {Developing an AI-powered marble inspection pipeline integrating a fixed imaging setup (industrial camera, lens, conveyor, lighting system) to preprocess, calibrate, and extract dimensionally accurate images for downstream analysis.}
+    \item {Implementing deep learning models (UNet, DeepLabV3, ResNet, EfficientNet) for binary defect segmentation, multi-class quality classification, and automated cutting plan generation with minimal waste using OR-Tools.}
+    \item {Deploying the system with real-time monitoring, feedback-based model updates, and a user interface built on FastAPI, Docker, and Streamlit for industrial integration.}
+  \resumeItemListEnd  
+
     \resumeProject
       {MOOZE} %Project Name
       {Personal Project --- \normalfont{\href{https://github.com/burakai/mooze}{Repository \faGithub}}} %Project Name, Location Name
-      {2024 (ongoing)} %Event Dates
+      {2024} %Event Dates
 
       \resumeItemListStart
         \item {MOOZE is an open-source CLI app that interacts with OpenAI's API to create and manage an AI assistant.}
