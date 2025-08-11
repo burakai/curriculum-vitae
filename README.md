@@ -22,25 +22,4 @@ I enjoy turning multidisciplinary ideas into working, impactful systems by combi
 - **Industrial Systems**: SCADA, MES concepts, predictive maintenance
 - **Visualization & Monitoring**: Grafana, Kafka, PostgreSQL
 
----
 
-## 📌 Selected Projects
-- **AI-Powered Marble Quality Inspection**  
-  Transfer learning model for detecting and classifying 26+ marble types from images.
-  
-- **SIPA – Smart Integrated Plant Assistant**  
-  IoT-enabled system for real-time plant health monitoring and automated watering using ESP32, Kafka, PostgreSQL, and Grafana.
-
-- **LSTM-Based Time Series Prediction**  
-  Predictive modeling on textile dyeing IoT sensor data for process optimization.
-
----
-
-## 📫 Let’s Connect
-- **LinkedIn**: [linkedin.com/in/burakkilic](https://linkedin.com/in/burakkilic)  
-- **GitHub**: [github.com/burakkilic](https://github.com/burakkilic)  
-- **Email**: burak.kilic@example.com
-
----
-
-> “Engineering is not just about building machines, it’s about building solutions.”
