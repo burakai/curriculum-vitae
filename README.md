@@ -1,13 +1,5 @@
-# Burak KILIÇ
+# About Me:
 
-**Ph.D. Candidate | Mechanical Engineer | AI & IoT Enthusiast**
+Ph.D. candidate in Mechanical Engineering at Istanbul Technical University, combining materials science, manufacturing, and AI to solve real-world problems. My work spans computer vision, IoT, and big data — from AI-powered quality inspection systems to precision agriculture solutions.
 
-I am a Ph.D. candidate in Mechanical Engineering at **Istanbul Technical University**, working at the intersection of **materials science**, **manufacturing**, and **artificial intelligence**.  
-My research and projects focus on:
-- AI-powered **quality inspection systems**
-- **Computer vision** for industrial applications
-- **IoT-based sensor networks** for precision agriculture
-- Big data processing and predictive analytics
-
-I enjoy turning multidisciplinary ideas into working, impactful systems by combining **engineering expertise** with **intelligent software solutions**.
-
+I enjoy collaborating across disciplines, connecting industry needs with innovative research, and turning ideas into working systems. Always open to new opportunities, partnerships, and challenging projects at the intersection of engineering and intelligent systems.
