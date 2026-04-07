@@ -1,5 +1,5 @@
 # About Me:
 
-Ph.D. candidate in Mechanical Engineering at Istanbul Technical University, combining materials science, manufacturing, and AI to solve real-world problems. My work spans computer vision, IoT, and big data — from AI-powered quality inspection systems to precision agriculture solutions.
+Ph.D. Candidate in Mechanical Engineering at Istanbul Technical University and an MSCA Fellow.
 
-I enjoy collaborating across disciplines, connecting industry needs with innovative research, and turning ideas into working systems. Always open to new opportunities, partnerships, and challenging projects at the intersection of engineering and intelligent systems.
+I work at the intersection of materials science, IoT, and AI to develop smart, data-driven systems. My current research focuses on precision agriculture, specifically the design of flexible e-textile sensors for real-time soil nutrient (NPK) monitoring. With experience spanning computer vision, machine learning, and big data pipelines, I am passionate about translating innovative research into practical, real-world applications.
